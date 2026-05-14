@@ -61,5 +61,5 @@ Thumbs.db
 uploads/
 temp/
 
-# MySQL dump files
-*.sql
+# # MySQL dump files
+# *.sql
