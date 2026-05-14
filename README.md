@@ -138,6 +138,22 @@ Features:
 
         npm install
 
+    If installing manually, use:
+
+        npm install express mysql2 cors dotenv bcryptjs jsonwebtoken
+        npm install --save-dev nodemon
+
+    Backend Scripts
+
+        Add these scripts in backend/package.json:
+
+        {
+        "scripts": {
+            "start": "node server.js",
+            "dev": "nodemon server.js"
+         }
+        }
+
     Start backend server:
 
         npm run dev
@@ -145,6 +161,7 @@ Features:
     Backend runs on:
 
         http://localhost:5000
+
 
 ## Frontend Setup
 
@@ -165,3 +182,10 @@ Features:
         cd user-frontend
         npm install
         npm run dev
+
+## If installing manually, use:
+
+    npm install axios react-router-dom lucide-react react-toastify
+    npm install tailwindcss @tailwindcss/vite
+
+
